@@ -1,0 +1,87 @@
+1. What is HTML and what is its fullform?
+1. A standard markup language is used to design documents displayed
+   in web as browser webpage.
+   Hypertext Markup Language:
+   Hypertext means (link that connect web pages to one another
+   (either in same website or b/w websites))
+   it is machine-understandable.
+   Markup Language refers to structure and organize.
+
+2. What is client-server model?
+2. It is a Communication model b/w  
+   multiple client programs and common server.
+   When many clients take service from a server.
+   Client requests from a server and server returns the answer.
+ 
+3. Peer-peer server ?
+3. It is communication model with 
+   no central server and instead all the computers in the network 
+   have equal capabilities.
+
+4. What is href?
+4. href is hypertext refrence, it is used to tell relationship b/w
+   pages to browser. 
+
+5. Difference b/w span and div?
+5. Span and div are both generic HTML elements that group together related 
+   parts of a web page. However, they serve different functions. A div element 
+   is used for block-level organization and styling of page elements, whereas a 
+   span element is used for inline organization and styling.
+
+6. Radio buttons select one in a group?
+6. The radio group must have share the same name (the value of the name attribute) to 
+   be treated as a group. Once the radio group is created, selecting any radio button 
+   in that group automatically deselects any other selected radio button in the same 
+   group. You can have as many radio groups on a page as you want, as long as each 
+   group has its own name.
+
+7. What are fieldset and legend tag?
+7. The <fieldset> tag is used to group related elements in a form. The <fieldset> tag 
+   draws a box around the related elements.
+   The <legend> tag is used to define a caption for the <fieldset> element.
+
+8. What are Post and Get ?
+8. -POST is used to send data to a server to create/update a resource.
+   
+   POST requests are never cached
+   POST requests do not remain in the browser history
+   POST requests cannot be bookmarked
+   POST requests have no restrictions on data length.
+       
+  -GET is used to request data from a specified resource.
+
+   GET requests can be cached
+   GET requests remain in the browser history
+   GET requests can be bookmarked
+   GET requests should never be used when dealing with sensitive data
+   GET requests have length restrictions
+   GET requests are only used to request data (not modify).
+
+9. What are semantic and non-semantic elemants?
+9. A semantic element clearly describes its meaning to both the browser 
+   and the developer.
+   Examples of non-semantic elements: <div> and <span> - Tells nothing about 
+   its content.
+   Examples of semantic elements: <form>, <table>, and <article> - Clearly
+   defines its content.
+
+10. Inline-elements vs Block-elements Difference?
+10. Inline means same line     | Block mean next line and  
+    and we cant give height or | we can give height and width.
+    width.                     |
+
+11. Difference b/w sticky and fixed position?
+11.         Fixed                                 |        Sticky
+
+   Element with position: fixed property is fixed |Element with position: sticky property
+   to the viewport and doesn’t move irrespective  |can scroll to an offset value provided
+   of scrolling.                                  |by the user.
+   Element with position: fixed property does     |It does affect the natural flow of
+   not effect the other element’s flow  on the    |the page and takes  additional
+   page ie it does not capture additional space.  |space.
+   Never leaves the viewport.                     |Leaves the viewport properly.
+
+12. Justify-content:main axis(more than 1 column needed).
+    Justify-Items:
+    Align-Items:(more than 1 row needed)
+    Align-content:cross axis().

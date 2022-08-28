@@ -1,0 +1,45 @@
+1. What is Javascript?
+1. JavaScript, often abbreviated JS, is a programming
+   language that is one of the core technologies of the World Wide Web, 
+   alongside HTML and CSS.
+   It makes the website interactive.
+
+2. What if we write script tag in head tag?
+2. We have 2 parts of HTML head and body first head runs and after that body.
+   So if we write script in head , first functions and alerts will run and after that
+   body or structure of website will appear instead vice-versa should happen.
+
+3. What are types of data-types in JS?
+3. In JS ,there are 2 types:
+   i.) Primitive - 7 sub-parts.
+  ii.) Non-Primitive.
+
+4. What is console.log ?
+4. We can code , write, print, read , calculate ,run programs or anything in console.log.
+
+5. Difference b/w var , let and const ?
+5. We can redeclare and reassign [var].
+   We can not redeclare but we can reassign [let].
+   We can neither redeclare nor reassign [const].   
+
+6. What are types of Primitive datatypes in JS?
+6. There are 7 types namely:
+   1. String.
+   2. Number.
+   3. Boolean.
+   4. null.
+   5. undefined.
+   6. big-int.
+   7. symbol.
+
+7. What are rules for names datatype?
+7. 1. It cannot be keyword.
+   2. Cannot start with digits.
+   3. Cannot start with special characters (* except: $ and _)
+   4. Cannot give white space between names.
+   5. Cannot end with %.
+
+8. Is String and char different in JS?
+8. No ,both are used as string in JS.
+   e.g. "xyz" and 'A' both are String in JS.
+   

@@ -1,0 +1,69 @@
+1. What is transform in CSS?
+1. This property applies a 2D or 3D transformation to an element. 
+   This property allows you to rotate, scale, move, skew, translate, etc., elements.
+
+2. What is animation in CSS? 
+2. An animation lets an element gradually change from one style to another.
+
+3. What are keyframes?
+3. When you specify CSS styles inside the keyframes, the animation will
+   gradually change from the current style to the new style at certain times.
+  
+   Give animation-name to the element on whom you can to apply CSS.
+   
+4. What is animation-duration property and does animation work when it is 0s (by default)?   
+4. The animation-duration property defines how long an animation should take to complete.
+   If the animation-duration property is not specified, no animation will occur,
+   because the default value is 0s (0 seconds).    
+
+5. What id animation-delay ?
+5. The animation-delay property specifies a delay for the start of an animation.
+   It can be set (-)ive n seconds (which means animation will start at n secs).
+
+6. What is animation-iteration-count?
+6. The animation-iteration-count property specifies the number of times 
+   an animation should run. We can put it infinite.
+
+7. What is animation-direction and its types?
+7. The animation-direction property specifies whether an animation should be played 
+   forwards, backwards or in alternate cycles.
+
+   The animation-direction property can have the following values:
+   normal - The animation is played as normal (forwards). (This is default).
+   reverse - The animation is played in reverse direction (backwards).
+   alternate - The animation is played forwards first, then backwards.
+   alternate-reverse - The animation is played backwards first, then forwards.
+
+8. What is animation-timing-function ?
+8. It defines the speed curve of the animation.(ease-in,ease-out,ease-in-out,
+   cubic-bezier(n,n,n,n)). pehle fast phir slow phir slow phir fast.
+
+9. What is animation fill-mode ?
+9. CSS animations do not affect an element before the first keyframe is played or 
+   after the last keyframe is played. The animation-fill-mode property can override 
+   this behavior.
+   The animation-fill-mode property specifies a style for the target element when 
+   the animation is not playing (before it starts, after it ends, or both).
+   The animation-fill-mode property can have the following values:
+
+   i)none - Default value. Animation will not apply any styles to the element 
+   before or after it is executing
+   
+   ii)forwards - The element will retain the style values that is set by the 
+   last keyframe (depends on animation-direction and animation-iteration-count)
+   
+   iii)backwards - The element will get the style values that is set by the first 
+   keyframe (depends on animation-direction), and retain this during the 
+   animation-delay period
+   
+   iv)both - The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions
+
+10. What is Animation Shorthand Property ?
+10. animation: example 5s linear 2s infinite alternate;
+      OR
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;

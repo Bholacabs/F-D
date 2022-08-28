@@ -1,0 +1,71 @@
+1. What is ternary operator?
+1. Ternary means three (3) , it is single line alternative of if_else statement.
+   
+   First(1st) is condition.
+   Second(2nd) is if (true) statement.
+   Third(3rd) is else (false) statement.
+   
+   Syntax: 
+           condition()? true statement : false statement;
+
+*2. What is function (defination) function call , function parameters/arguments ?
+ 2. Block/Chunk of code we can use again and again without writing it multiple times.
+    Functions breaks a problem into into smaller parts , each part has a specific 
+    task. 
+    Advantages : Reusability, understandable,....
+    
+    A function call is an expression that passes control and arguments (if any) to a 
+    function and has the form: expression (expression-list) where expression is a 
+    function name or evaluates to a function address and expression-list is a list of
+    expressions (separated by commas).
+    
+    Information can be passed to functions as a parameter. Parameters act as variables 
+    inside the function.
+    
+    This information we send to a funciton during function call is called an argument.
+    
+
+3. What is syntax of functions in JS and how to store a function in a variable?
+3. A JavaScript function is a block of code designed to perform a particular task.
+   A JavaScript function is executed when "something" invokes it (calls it).
+   
+   Syntax:   
+          function name (parameter1,parameter2.....)
+          {
+          //code
+          }
+
+   e.g.function square(int n)
+       {
+        return n*n;
+       }
+
+   We can store function in a variable:
+   
+   var x= function()
+   {
+     return a+b;
+   }
+   console.log( x(10,20) ); // called it using x 
+   
+4. What are arrow functions?
+4. It allows us to use shorter function syntax.
+   e.g. let add = (a,b) => a+b;
+   
+   You can remove { } and "return" keyword.
+   e.g. hello = () => return "Hello";
+   This works for one statement functions
+   const hello = (val) => "Hello" +val;
+   In above e.g. you can skip ( ) of parameter (if one parameter is there)
+   const hello = val => "Hello" +val ;
+   
+
+5. Use function in one line to add 2 numbers in JS?
+5. Use arrow function:
+   
+   const add2 = (a,b) => a+b;
+ 
+
+   
+    
+

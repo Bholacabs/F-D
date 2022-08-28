@@ -1,0 +1,29 @@
+1. What is media query ?
+1. Iske saath hum define different style rules for different media types.
+   e.g. Different set of css rules for computer-screens , printers , 
+   television , etc.
+
+2. Types of media query ?
+2. (i)   all.
+   (ii)  screen. 
+   (iii) print (for printers).
+   (iv)  speech (for screenreaders that reads the page out loud).
+
+3. What is min and max-width ?
+3. min-width:400px (the min. width should be this or more to get result
+   of query)
+   max-width:400px (the max. width should be this or less to get result
+   of query)
+
+4. Transition effects works only when ?
+4. Always specify the transition-duration property, otherwise 
+   the duration is 0s, and the transition will have no effect.
+
+5. What is transition delay and transiiton-timing-function?
+5. Transition delay - Defines when the transition effect will start.
+   Transition-timing-function - Specifies the speed curve of 
+   the transition effect.
+   i)ease-in 
+  ii)ease-out 
+ iii)ease-in-out
+  iv)cubic-bezier(1,1,1,1)

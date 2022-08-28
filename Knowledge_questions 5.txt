@@ -1,0 +1,43 @@
+1. What is bootstrap ?
+1. Bootstrap is a potent front-end framework used to create modern websites
+   and web apps. 
+   It contains HTML, CSS and JavaScript-based design templates for 
+   typography, forms, buttons, navigation, and other interface components.
+
+2. What is grid-system in bootstrap? 
+2. Bootstrap's grid system allows up to 12 columns across the page. 
+   If you do not want to use all 12 column individually, you can group 
+   the columns together to create wider columns.
+   Use class="col-lg-4" , here lg=large-screen and 3 columns in 1 row 
+   or class="col-md-6" , here   md=medium devices and 2 columns in 1 row.
+   column = 12/4 =3 or 12/6 =2. 
+
+3. What is Grid property of display in css?
+3. 
+
+4. What is grid-template and its types ?
+4. grid-template-rows used to give no. of rows and their size.
+   grid-template-rows:150px 1fr; 
+   grid-template-columns used to give no. of columns and their size.
+   grid-template-columns:150px repeat(2,1fr).
+
+   i.)  The vertical lines of grid items are called columns.
+   ii.) The horizontal lines of grid items are called rows.
+
+5. What is grid-row-start / grid-row-end and grid-column-start/grid-column-end ?
+5. Used in css tag of the items:
+   grid-row-start: Specifies where to start the grid item.
+   grid-row-end: Specifies where to end the grid item.
+
+6. What is grid-auto-rows and its use?
+6. Specifies a default row size
+ 
+7. What are min-content / max-content property in grid-row/column-template ?
+7. min-content is passed in grid-template-rows or grid-template-columns it is row/col
+   size but in min-content it is max word size.
+   max-content is passed in grid-template-rows or grid-template-columns it is row/col
+   size but in max-content it is size of whole text .
+
+8. What is fr?
+8.  It is short for "fraction" , the fr unit as a unit which represents a fraction
+    of the available space in the grid container. 

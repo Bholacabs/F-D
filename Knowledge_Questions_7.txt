@@ -1,0 +1,62 @@
+1. What is an object?
+1. Objects contain data and code. Data in form of fields (data fields) and code in form 
+   of procedures. We can modify the object's data fields.
+   Object has properties and functions. We can change , add , delete properties to an 
+   object.
+
+
+
+2. What is object in JS?
+2. It is collection of named values (name:value).
+   It is good practice in JS to declare an object with "const" keyword. 
+
+3. How to make an Object in JS?
+3. There are 4 ways to make an object in JS:
+   
+   a) Using an Object literal:
+     
+     You define and create an object in one statement:
+     const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};   
+     
+     const person = {
+     firstName: "John",
+     lastName: "Doe",
+     age: 50,
+     eyeColor: "blue"};
+     
+     const person = {};
+     person.firstName = "John";
+     person.lastName = "Doe";
+     person.age = 50;
+     person.eyeColor = "blue";
+     
+   b) Using "new object()" keyword: 
+     
+     const human= new object();
+     human.eyecolor:blue;
+     human.age=30;
+   
+   c)Define an object constructor, and then create objects of the constructed type.
+  
+   d)Create an object using Object.create().
+
+   For readability, simplicity and execution speed, use the object literal method.
+
+4. Are objects in JS mutable?
+4. Yes , JS objects are mutable .
+   
+   They are addressed by reference and not by value.
+   If const x=person;
+   Then x will not a copy of person . Both x and person are same objects and Changes
+   in x will also change person.
+ 
+   const person = {
+   firstName:"John",
+   lastName:"Doe",
+   age:50, eyeColor:"blue"};
+   
+   const x = person;
+   x.age = 10;      // Will change both x.age and person.age       
+
+
+

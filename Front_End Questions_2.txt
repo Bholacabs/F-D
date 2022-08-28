@@ -1,0 +1,17 @@
+1. Position tag in CSS how many types?
+1. It has 5 types :
+   
+   (i). Static (by default)
+   (ii). Absolute
+   (iii). Relative
+   (iv). Fixed
+   (v). Sticky
+
+2. What is Flex (flexibility) ?
+2. 
+
+3. Difference b/w sticky and fixed?
+3. Sticky                        | Fixed
+   It is relative to its parent. | It is relative to body. 
+   It stops moving with screen   | It doesn't stop after 
+   after a certain given point.  | some limit it moves with screen.
